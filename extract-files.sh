@@ -20,6 +20,17 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
+function blob_fixup() {
+    case "${1}" in
+    vendor/lib64/libsettings.so)
+        "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v28.so" "${2}"
+        ;;
+    vendor/lib64/libwvhidl.so)
+        "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v28.so" "${2}"
+        ;;
+    esac
+}
+
 # Default to NOT sanitizing the vendor folder before extraction
 CLEAN_VENDOR=false
 ONLY_COMMON=
