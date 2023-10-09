@@ -33,7 +33,6 @@ LOCAL_HEADER_LIBRARIES := \
 LOCAL_SHARED_LIBRARIES := \
     liblog \
     libhidlbase \
-    libhwbinder \
     libcutils \
     libutils \
     android.hardware.gnss@1.0 \
@@ -80,7 +79,6 @@ LOCAL_SHARED_LIBRARIES := \
     libutils \
 
 LOCAL_SHARED_LIBRARIES += \
-    libhwbinder \
     libhidlbase \
     android.hardware.gnss@1.0 \
 
