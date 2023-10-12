@@ -23,7 +23,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
 # Device is a Tablet
-PRODUCT_CHARACTERISTICS := tablet
+PRODUCT_CHARACTERISTICS := automotive
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
