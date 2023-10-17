@@ -248,7 +248,8 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    FrameworksOverlay
+    FrameworksOverlay \
+    SettingsOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
