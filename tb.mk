@@ -249,7 +249,8 @@ PRODUCT_PACKAGES += \
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksOverlay \
-    SettingsOverlay
+    SettingsOverlay \
+    TelephonyOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
