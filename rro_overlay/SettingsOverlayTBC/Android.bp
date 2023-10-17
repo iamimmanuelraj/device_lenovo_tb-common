@@ -15,7 +15,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsOverlay",
+    name: "SettingsOverlayTBC",
     resource_dirs: ["res"],
     vendor: true,
 }

@@ -244,9 +244,9 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    FrameworksOverlay \
-    SettingsOverlay \
-    TelephonyOverlay
+    FrameworksOverlayTBC \
+    SettingsOverlayTBC \
+    TelephonyOverlayTBC
 
 # Permissions
 PRODUCT_COPY_FILES += \
