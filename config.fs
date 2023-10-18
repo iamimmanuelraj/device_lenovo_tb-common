@@ -13,12 +13,6 @@ value:2905
 [AID_VENDOR_QRTR]
 value:2906
 
-[vendor/bin/pm-service]
-mode: 0755
-user: AID_SYSTEM
-group: AID_SYSTEM
-caps: NET_BIND_SERVICE
-
 [vendor/bin/imsdatadaemon]
 mode: 0755
 user: AID_RADIO
