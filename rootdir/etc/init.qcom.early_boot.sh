@@ -136,9 +136,6 @@ case "$target" in
                 setprop vendor.media.sm6150.version 1
                 setprop vendor.chre.enabled 0
                 ;;
-            369|377|384)
-                setprop vendor.chre.enabled 0
-                ;;
             *)
         esac
         ;;
