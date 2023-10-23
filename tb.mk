@@ -215,7 +215,10 @@ PRODUCT_COPY_FILES += \
 
 # Net
 PRODUCT_PACKAGES += \
-    libnl
+    android.system.net.netd@1.0 \
+    libandroid_net \
+    libnl \
+    netutils-wrapper-1.0
 
 # Lights
 PRODUCT_PACKAGES += \
