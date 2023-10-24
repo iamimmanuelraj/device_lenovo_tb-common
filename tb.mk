@@ -242,6 +242,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksOverlayTBC \
+    Launcher3OverlayTBC \
     SettingsOverlayTBC \
     TelephonyOverlayTBC
 
